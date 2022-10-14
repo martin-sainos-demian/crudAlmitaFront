@@ -21,7 +21,7 @@ export default class Register extends Component {
 function reg(){
   var usu=en($("#regUser").val())
   var pass=en($("#regPass").val())
-  fetch("https://securitypassword.cyclic.app/register/?user="+usu+"&pass="+pass, {method : 'GET',})
+  fetch("https://sainos-dem-api-crud-almita.cyclic.app/register/?user="+usu+"&pass="+pass, {method : 'GET',})
   .then(function(response) {
      return response.json(); })
     .then(function(json) {

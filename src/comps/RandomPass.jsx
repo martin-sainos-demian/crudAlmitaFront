@@ -63,7 +63,7 @@ export default class RandomPass extends Component {
 }
 function gen(){
   var len=$("#genNum").val()
-  fetch("https://securitypassword.cyclic.app/generate/?low="+state.low.toString()
+  fetch("https://sainos-dem-api-crud-almita.cyclic.app/generate/?low="+state.low.toString()
   +"&up="+state.up.toString()+"&n="+state.n.toString()+"&num="+state.num.toString()
   +"&char="+state.char.toString()+"&rect="+state.rect.toString()+"&len="+len, {method : 'GET',})
   .then(function(response) {

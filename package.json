@@ -1,7 +1,7 @@
 {
   "name": "pass",
   "version": "0.1.0",
-  "homepage": "https://securitypassword.github.io",
+  "homepage": "https://martin-sainos-demian.github.io/crudAlmitaFront/",
   "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {

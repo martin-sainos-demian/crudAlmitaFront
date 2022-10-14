@@ -19,7 +19,7 @@ function getPass(){
   usu_id=usu_id.substring(1,usu_id.length)
   usu_id=parseInt(usu_id)  
   var resJson=""
-  fetch("https://securitypassword.cyclic.app/getRegisters/?usu_id="+usu_id, {method : 'GET',})
+  fetch("https://sainos-dem-api-crud-almita.cyclic.app/getRegisters/?usu_id="+usu_id, {method : 'GET',})
   .then(function(response) {
      return response.json(); })
     .then(function(json) {
@@ -39,7 +39,7 @@ function getPass(){
           var cellDel = row.insertCell(2);
           cellName.append(de(resJson[r].reg_name))
           cellPass.append(de(resJson[r].reg_pass))
-          var command= 'fetch("https://securitypassword.cyclic.app/delRegister/?reg_id='+regId+'", {method : "GET",}).then()'
+          var command= 'fetch("https://sainos-dem-api-crud-almita.cyclic.app/delRegister/?reg_id='+regId+'", {method : "GET",}).then()'
           cellDel.innerHTML="<input type='button' value='delete' onclick='"+command+"' id='delBtn"+r+"' ></Button>"
           console.log("key "+r+" "+regId)
         }

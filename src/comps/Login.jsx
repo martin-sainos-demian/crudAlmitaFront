@@ -22,7 +22,7 @@ export default class Login extends Component {
 function log(){
   var usu=en($("#logUser").val())
   var pass=en($("#logPass").val())
-  fetch("https://securitypassword.cyclic.app/login/?user="+usu+"&pass="+pass, {method : 'GET',})
+  fetch("https://sainos-dem-api-crud-almita.cyclic.app/login/?user="+usu+"&pass="+pass, {method : 'GET',})
   .then(function(response) {
      return response.json(); })
     .then(function(json) {

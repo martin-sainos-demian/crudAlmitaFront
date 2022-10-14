@@ -28,7 +28,7 @@ export default class NewPass extends Component {
       console.log(pass+" "+name)
       pass=en(pass)
       name=en(name)
-      fetch("https://securitypassword.cyclic.app/savePass/?usu_id="+usu_id+"&pass="+pass+"&name="+name, {method : 'GET',})
+      fetch("https://sainos-dem-api-crud-almita.cyclic.app/savePass/?usu_id="+usu_id+"&pass="+pass+"&name="+name, {method : 'GET',})
       .then(function(response) {
         return response.json(); })
         .then(function(json) {
