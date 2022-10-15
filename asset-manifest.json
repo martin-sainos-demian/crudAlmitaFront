@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/crudAlmitaFront/static/css/main.33be005a.css",
-    "main.js": "/crudAlmitaFront/static/js/main.3020cdd5.js",
+    "main.css": "/crudAlmitaFront/static/css/main.66e0f020.css",
+    "main.js": "/crudAlmitaFront/static/js/main.f7537f1d.js",
     "static/js/787.7ef191e1.chunk.js": "/crudAlmitaFront/static/js/787.7ef191e1.chunk.js",
     "static/media/logo.svg": "/crudAlmitaFront/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/crudAlmitaFront/index.html",
-    "main.33be005a.css.map": "/crudAlmitaFront/static/css/main.33be005a.css.map",
-    "main.3020cdd5.js.map": "/crudAlmitaFront/static/js/main.3020cdd5.js.map",
+    "main.66e0f020.css.map": "/crudAlmitaFront/static/css/main.66e0f020.css.map",
+    "main.f7537f1d.js.map": "/crudAlmitaFront/static/js/main.f7537f1d.js.map",
     "787.7ef191e1.chunk.js.map": "/crudAlmitaFront/static/js/787.7ef191e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33be005a.css",
-    "static/js/main.3020cdd5.js"
+    "static/css/main.66e0f020.css",
+    "static/js/main.f7537f1d.js"
   ]
 }
