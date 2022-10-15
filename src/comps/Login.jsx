@@ -13,7 +13,7 @@ export default class Login extends Component {
         <br id="br1"></br>
         <input type="text" id="logPass" />
         <br id="br2"></br>
-        <Button id="logBtn" title="log" onPress={log}></Button>
+        <Button id="logBtn" title="login" onPress={log}></Button>
         <p id="logTxt"></p>
       </div>
     )

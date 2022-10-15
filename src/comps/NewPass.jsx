@@ -11,8 +11,9 @@ export default class NewPass extends Component {
     render() {
       return (
         <div className="NewPass">
-          <RandomPass></RandomPass>
           <input type="text" id="newPassName" placeholder='name'></input> 
+          <br></br>
+        <input type="text" id="genPass" placeholder='new pass'></input>
           <Button title="save" onPress={savePass}></Button>
         </div>
       )

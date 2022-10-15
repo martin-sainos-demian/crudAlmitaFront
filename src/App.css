@@ -45,3 +45,7 @@
   background-color : #00ffff;
   color: #f0a0ff;
 }
+#getPassTable{
+  align-self: center;
+  border: 5px solid #c300ff;
+}

@@ -15,10 +15,12 @@ function App() {
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
       <TitlePass></TitlePass>
       <Login id="login"></Login>
-      <NewPass></NewPass>
-      <GetPass></GetPass>
-      <Encoder></Encoder>
+      <br></br>
       <Register></Register>
+      <br></br>
+      <NewPass></NewPass>
+      <br></br>
+      <GetPass></GetPass>
         <p id="logId" hidden></p>
     </div>
   );

@@ -6,7 +6,7 @@ export default class Login extends Component {
     render() {
       return (
         <div className="TitlePass">
-          securitypassword
+          administrador de contraseñas
         </div>
       )
     }

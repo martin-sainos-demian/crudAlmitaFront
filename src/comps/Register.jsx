@@ -12,7 +12,7 @@ export default class Register extends Component {
         <br id="br1"></br>
         <input type="text" id="regPass" />
         <br id="br2"></br>
-        <Button id="regBtn" title="reg" onPress={reg}></Button>
+        <Button id="regBtn" title="register" onPress={reg}></Button>
         <p id="regTxt"></p>
       </div>
     )

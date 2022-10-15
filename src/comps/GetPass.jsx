@@ -9,7 +9,7 @@ export default class GetPass extends Component {
     return (
       <div className="App">
         <Button id="getPassBtn" title="get password" onPress={getPass}></Button>
-        <table id="getPassTable"></table>
+        <table id="getPassTable" align="center"></table>
       </div>
     )
   }
